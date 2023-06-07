@@ -172,6 +172,7 @@ a {
 .block-content {
     padding: 0rem 1.5rem;
     margin-bottom: 5rem;
+    overflow: hidden;
 }
 
 .block-registr-border {
@@ -336,9 +337,16 @@ a {
     border-radius: 12px;
 }
 
+.block-link a {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
 .block-link a span{
     font-size: 0.8rem;
     color: #2D3748;
+    padding-top: 0.2rem;
 }
 
 .content {
@@ -534,8 +542,4 @@ a {
     border-radius: 8px;
     text-align: center;
     color: #fff;
-}
-
-.edit {
-    color: #718096;
 }

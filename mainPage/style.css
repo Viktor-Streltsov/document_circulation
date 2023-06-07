@@ -170,6 +170,7 @@ a {
 .block-content {
     padding: 0rem 1.5rem;
     margin-bottom: 5rem;
+    overflow: hidden;
 }
 
 .registor-type {
